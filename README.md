@@ -3,8 +3,6 @@ Catman is hungry and it's lunch time! Everytime catman goes out to eat, there ar
 
 CATMAN-wireframe.jpg
 
-[CATMAN-wireframe.pdf](https://github.com/gloreea/project-1/files/11004367/CATMAN-wireframe.pdf)
-
 
 TECHSTACK 
 - USE HTML, CSS, JAVASCRIPT(DOM)

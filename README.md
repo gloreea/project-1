@@ -22,3 +22,9 @@ MVP Goals
 - Change color of dogs when catman is in power mode
 - Set different difficulty game modes
 - Allow player to choose what color mode they choose
+
+Potential Roadblocks
+- Figuring out how to interpret AI into my code for the dogs (ghosts)
+- Using classes and constructurs for the dogs and catman 
+- Making sure I have all the variables I need for my game
+- The functionality of the game and logic for how the player should move and winning conditions

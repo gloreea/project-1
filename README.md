@@ -1,7 +1,7 @@
 Catman is hungry and it's lunch time! Everytime catman goes out to eat, there are dogs trying to chase him. If the dogs get to him, he will lose one of his precious catman lives. Help catman collect all the fishes before the dogs get to him. There are power fishes that will make the dogs scared of catman and run from him. If catman gets to the dogs, while in power mode, the dogs will go back to their dog house.
 
+![Wireframe](CATMAN-wireframe.jpg)
 
-CATMAN-wireframe.jpg
 
 
 TECHSTACK 

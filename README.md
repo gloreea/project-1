@@ -1,30 +1,38 @@
-Catman is hungry and it's lunch time! Everytime catman goes out to eat, there are dogs trying to chase him. If the dogs get to him, he will lose one of his precious catman lives. Help catman collect all the fishes before the dogs get to him. There are power fishes that will make the dogs scared of catman and run from him. If catman gets to the dogs, while in power mode, the dogs will go back to their dog house.
+WHACK-A-MOLE
+Whack the moles whenever you see them, make sure not to hit the holes too early or late or it will close. If you run out of holes the game will end. The only way to win is to hit the moles 15 times in a row with no misses.
+Use your cursor to click on each hole when you see a mole inside!
 
-![Wireframe](CATMAN-wireframe.jpg)
-
-
+![Wireframe](wireframesketch.jpg)
 
 TECHSTACK 
 - USE HTML, CSS, JAVASCRIPT(DOM)
 
-MVP Goals
-- Display a start button and a reset button
-- During gameplay, allow player score and lives to display 
-- Allow dogs to be operated by AI
-- Allow the cat to eat the fish and when eating the power fish, make dogs run away from player(if catman collides with dog, send dog back to its' home)
-- Display game over if player loses, or winning display for win
-- Allow catman to be controlled by mouse or w, a, s, d keys
-- Create a grid for the gameplay
-- When dogs collide with catman, display catman losing a life 
+
+MVP GOALS
+- Have a score display and reset button 
+- Have gameboard with 9 holes
+- When player loses, display game over
+- If player wins, display winner message
+- Allow mole to appear in circles 
+- Cover holes when a player clicks on or misses hole early/late
+
+STRETCH GOALS
+- Make cursor a hammer
+- Style game with css
+- Add background gameplay music
+- Create a pause button
+
+POTENTIAL ROADBLCOKS
+- Allowing points to add up if player hits moles continiously in a row
+- Getting the mole to randomly pop up in the holes
 
 
- Stretch Goals
-- Change color of dogs when catman is in power mode
-- Set different difficulty game modes
-- Allow player to choose what color mode they choose
 
-Potential Roadblocks
-- Figuring out how to interpret AI into my code for the dogs (ghosts)
-- Using classes and constructurs for the dogs and catman 
-- Making sure I have all the variables I need for my game
-- The functionality of the game and logic for how the player should move and winning conditions
+
+
+
+
+
+
+
+

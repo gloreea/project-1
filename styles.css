@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 70px;
+    color: darkgoldenrod;
+    font-weight: 150px;
+    margin: 15px;
+     display: flex; 
+    text-align: center;  
+}
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 45px;
+   height: 500px;
+   width: 500px;
+   padding: 50px;
+}
+.mole {
+  background-image: url("./mole.png"); 
+  position: absolute;
+  background-size: cover;
+  height: 70px;
+  width: 110px;
+  top: 25px;
+  left: 5px;
+ visibility: hidden;
+}
+.hole {
+    background-color: rgb(83, 176, 76); 
+    border-radius: 50%;
+    position: relative;
+   
+}
+#Reset {
+    margin: 30px;
+}
+#start {
+ margin-bottom: 5px;
+ font-size: 20px;
+ /* border: solid 2px green; */
+}
+#score {
+  font-size: 30px;
+  left: -200px;
+  position: relative;
+}
+#timer {
+  font-size: 30px;
+  position: relative;
+  left: 160px;
+  top: -35px;
+
+}
+.isVisble {
+  visibility: visible;
+}

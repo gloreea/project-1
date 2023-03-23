@@ -6,7 +6,7 @@ const timer =  document.querySelector("#timer")
 const message = document.querySelector("#message")
 let resetMoleInterval 
 const reset = document.querySelector("#reset")
-let sound = new Audio('2019-12-09_-_Retro_Forest_-_David_Fesliyan.mp3')
+let sound = new Audio('./2019-12-09_-_Retro_Forest_-_David_Fesliyan.mp3')
 // timer
 let timerSecond = 30
 start.addEventListener("click", function () {

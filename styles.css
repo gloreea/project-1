@@ -3,6 +3,7 @@
     text-align: center;
 }
 
+
 body {
     display: flex;
     flex-direction: column;
@@ -17,6 +18,12 @@ h1 {
      display: flex; 
     text-align: center;  
 }
+p {
+  font-size: 23px;
+  font-weight: 10px;
+  padding-bottom: 25px;
+  color: darkgreen;
+}
 #gameBoard {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -24,7 +31,7 @@ h1 {
     gap: 45px;
    height: 500px;
    width: 500px;
-   padding: 50px;
+   padding: 25px;
 }
 .mole {
   background-image: url("./mole.png"); 
@@ -48,7 +55,6 @@ h1 {
 #start {
  margin-bottom: 5px;
  font-size: 20px;
- /* border: solid 2px green; */
 }
 #score {
   font-size: 30px;
@@ -64,4 +70,14 @@ h1 {
 }
 .isVisble {
   visibility: visible;
+}
+#message {
+  text-align: center;
+  font-size: 65px;
+  color: darkgreen;
+  font-weight: 20px;
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
 }

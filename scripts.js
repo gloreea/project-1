@@ -7,6 +7,7 @@ const message = document.querySelector("#message")
 let resetMoleInterval 
 const reset = document.querySelector("#reset")
 let sound = new Audio('./2019-12-09_-_Retro_Forest_-_David_Fesliyan.mp3')
+let moleSound = new Audio("./Clicksound.mp3")
 // timer
 let timerSecond = 30
 start.addEventListener("click", function () {
@@ -41,7 +42,6 @@ function randomHole() {
     randomHole.firstElementChild.style.visibility = "visible"
     randomHole.firstElementChild.classList.add("correctMole")
    // console.log(randomHole.firstElementChild)   
-    //correctMole = randomHole 
 }
 
 // change reset mole to remove correct mole 
@@ -63,16 +63,18 @@ mole.forEach((element) => {
         if (e.target.classList.contains("correctMole") ) {
             // console.log("correctMole")
             resetMole()
-            //setTimeout(resetMole, 1500)
+            moleSound.play()
+            
         }
     })
 })
 
 // function for score
-           // holes.forEach((hole) => {
+
         mole.forEach((element) => {
             element.addEventListener("mousedown", function (e) {
                 if(e.target.classList.contains("correctMole")) {
+                    moleSound.play()
                     point++
                     score.innerText = `Score: ${point}` 
                 } 

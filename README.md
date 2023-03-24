@@ -1,6 +1,7 @@
 WHACK-A-MOLE
 Whack the moles whenever you see them! You have 30 seconds to score 15 points in order to win! If the timer runs out, game over!
 Use your cursor to click on each hole when you see a mole inside!
+Here is the game: https://gloreea.github.io/project-1/
 
 ![Wireframe](wireframesketch.jpg)
 
